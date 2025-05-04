@@ -22,7 +22,7 @@ tensorflow 2.9.1
 
 
 ## Data sets
-The `datasets` folder contains all the experimental data used by GTFKAN: [MDAD](http://chengroup.cumt.edu.cn/MDAD) and [aBiofilm](http://bioinfo.imtech.res.in/manojk/abiofilm/). In the `data/MDAD` and `data/aBiofilm` folders we have complete data on microbes, drugs and diseases.
+The `data` folder contains all the experimental data used by GTFKAN: [MDAD](http://chengroup.cumt.edu.cn/MDAD) and [aBiofilm](http://bioinfo.imtech.res.in/manojk/abiofilm/). In the `data/MDAD` and `data/aBiofilm` folders we have complete data on microbes, drugs and diseases.
 
 
 #### Data description
