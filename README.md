@@ -39,9 +39,9 @@ microbe_similarity: microbe functional similarity
 
 
 ## Run GTFKAN on our data to reproduce results
-In order to train GTFKAN, you need to modify the corresponding database paths and parameters in advance. Just run ‘main.py’ after modification.
+In order to train GTFKAN, you need to modify the corresponding database paths and parameters in advance. Just run `main.py` after modification.
 
 
 ## Use our code in a new database
-If you are going to use our code on a new database, you need to prepare the microbe, drug and disease associations in advance. You can choose to run ‘Calculation_of_composite_similarity.py’ in advance to get drug functional similarity or microbe functional similarity. also You can also calculate functional similarity every time you run the main code. to reduce time complexity, we recommend running ‘Calculation_of_composite_similarity.py’ in advance. The next thing you need to do is to replace the read path of each file in the code with the path to the new database file. Then you also need to update the corresponding parameters in the code. For example, in ‘main.py’, replace 1373 (microbial species) and 173 (drug species) with the species in the new database.
+If you are going to use our code on a new database, you need to prepare the microbe, drug and disease associations in advance. You can choose to run `Calculation_of_composite_similarity.py` in advance to get drug functional similarity or microbe functional similarity. also You can also calculate functional similarity every time you run the main code. to reduce time complexity, we recommend running `Calculation_of_composite_similarity.py` in advance. The next thing you need to do is to replace the read path of each file in the code with the path to the new database file. Then you also need to update the corresponding parameters in the code. For example, in `main.py`, replace 1373 (microbial species) and 173 (drug species) with the species in the new database.
 
